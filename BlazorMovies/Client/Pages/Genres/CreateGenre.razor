@@ -2,6 +2,19 @@
 
 <h3>CreateGenre</h3>
 
+<EditForm  Model="genre" OnSubmit="Create"  >
+
+c
+
+</EditForm>
+
 @code {
+
+    private Genre genre = new Genre();
+
+    private void Create()
+    {
+        Console.WriteLine(genre.Name);
+    }
 
 }

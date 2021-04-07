@@ -65,6 +65,19 @@ using BlazorMovies.Shared.Entities;
         {
         }
         #pragma warning restore 1998
+#line 18 "C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Client\Pages\Genres\CreateGenre.razor"
+       
+
+    private Genre genre = new Genre();
+
+    private void Create()
+    {
+        Console.WriteLine(genre.Name);
+    }
+
+
+#line default
+#line hidden
     }
 }
 #pragma warning restore 1591
