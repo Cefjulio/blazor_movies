@@ -35,3 +35,4 @@ C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Server\obj\Debug\ne
 C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Server\obj\Debug\netcoreapp3.1\BlazorMovies.Server.dll
 C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Server\obj\Debug\netcoreapp3.1\BlazorMovies.Server.pdb
 C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Server\obj\Debug\netcoreapp3.1\BlazorMovies.Server.genruntimeconfig.cache
+C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Server\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll

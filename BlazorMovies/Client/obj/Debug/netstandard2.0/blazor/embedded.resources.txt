@@ -14,7 +14,7 @@ C:\Users\auyon.j6356\.nuget\packages\microsoft.extensions.primitives\3.1.0-previ
 C:\Users\auyon.j6356\.nuget\packages\microsoft.jsinterop\3.1.0-preview1.19506.1\lib\netstandard2.0\Microsoft.JSInterop.dll
 C:\Users\auyon.j6356\.nuget\packages\mono.webassembly.interop\3.1.0-preview1.19506.1\lib\netstandard2.0\Mono.WebAssembly.Interop.dll
 C:\Users\auyon.j6356\.nuget\packages\system.buffers\4.5.0\lib\netstandard2.0\System.Buffers.dll
-C:\Users\auyon.j6356\.nuget\packages\system.componentmodel.annotations\4.7.0-preview1.19504.10\lib\netstandard2.0\System.ComponentModel.Annotations.dll
+C:\Users\auyon.j6356\.nuget\packages\system.componentmodel.annotations\5.0.0\lib\netstandard2.0\System.ComponentModel.Annotations.dll
 C:\Users\auyon.j6356\.nuget\packages\system.memory\4.5.3\lib\netstandard2.0\System.Memory.dll
 C:\Users\auyon.j6356\.nuget\packages\system.numerics.vectors\4.5.0\lib\netstandard2.0\System.Numerics.Vectors.dll
 C:\Users\auyon.j6356\.nuget\packages\system.runtime.compilerservices.unsafe\4.7.0-preview1.19504.10\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll

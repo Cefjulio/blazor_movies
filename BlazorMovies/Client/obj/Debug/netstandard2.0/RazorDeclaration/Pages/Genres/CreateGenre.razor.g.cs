@@ -65,7 +65,7 @@ using BlazorMovies.Shared.Entities;
         {
         }
         #pragma warning restore 1998
-#line 18 "C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Client\Pages\Genres\CreateGenre.razor"
+#line 21 "C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Client\Pages\Genres\CreateGenre.razor"
        
 
     private Genre genre = new Genre();
