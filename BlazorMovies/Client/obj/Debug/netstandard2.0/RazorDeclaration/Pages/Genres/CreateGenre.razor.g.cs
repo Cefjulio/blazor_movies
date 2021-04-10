@@ -65,13 +65,14 @@ using BlazorMovies.Shared.Entities;
         {
         }
         #pragma warning restore 1998
-#line 21 "C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Client\Pages\Genres\CreateGenre.razor"
+#line 7 "C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Client\Pages\Genres\CreateGenre.razor"
        
 
     private Genre genre = new Genre();
 
     private void Create()
     {
+        Console.WriteLine("Create Method");
         Console.WriteLine(genre.Name);
     }
 

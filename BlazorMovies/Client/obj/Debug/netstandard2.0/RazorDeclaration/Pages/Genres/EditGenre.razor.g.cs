@@ -65,9 +65,25 @@ using BlazorMovies.Shared.Entities;
         {
         }
         #pragma warning restore 1998
-#line 5 "C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Client\Pages\Genres\EditGenre.razor"
+#line 14 "C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Client\Pages\Genres\EditGenre.razor"
        
+
     [Parameter] public int GenreId { get; set; }
+    public Genre genre;
+
+    protected override void OnInitialized()
+    {
+        genre = new Genre() { Id = GenreId, Name = "Comedy" };
+    }
+
+    private void Edit()
+    {
+        Console.WriteLine("Edit Mode");
+        Console.WriteLine($"Id = {genre.Id}");
+        Console.WriteLine($"Name = {genre.Name}");
+
+    }
+
 
 #line default
 #line hidden
