@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BlazorMovies.Client.Shared
+namespace BlazorMovies.Client.Pages.Movies
 {
     #line hidden
     using System;
@@ -57,26 +57,71 @@ using BlazorMovies.Shared.Entities;
 
 #line default
 #line hidden
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/movies/search")]
+    public partial class MovieFilter : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
-#line 49 "C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Client\Shared\NavMenu.razor"
+#line 51 "C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Client\Pages\Movies\MovieFilter.razor"
        
-    private bool collapseNavMenu = true;
+    private List<Movie> Movies;
+    string title = "";
+    string selectedGenre = "0";
+    bool upcomingReleases = false;
+    bool inTheaters = false;
 
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+    private List<Genre> Genres = new List<Genre>() { new Genre() { Id = 1, Name = "Action" },
+    new Genre() { Id = 2, Name = "Comedy" }};
 
-    private void ToggleNavMenu()
+    protected override void OnInitialized()
     {
-        collapseNavMenu = !collapseNavMenu;
+        Movies = repository.GetMovies();
     }
+
+
+
+    private void SearchForMovies()
+    {
+        Movies = repository.GetMovies().Where(x => x.Title.Contains(title)).ToList();
+        Console.WriteLine($"title: {title}");
+        Console.WriteLine($"selectedGenre: {selectedGenre}");
+        Console.WriteLine($"upcomingReleases: {upcomingReleases}");
+        Console.WriteLine($"inTheaters: {inTheaters}");
+
+
+    }
+    private void Clear()
+    {
+        Movies = repository.GetMovies();
+        title = "";
+        selectedGenre = "0";
+        upcomingReleases = false;
+        inTheaters = false;
+    }
+
+
+    private void TitleKeyPress(KeyboardEventArgs e)
+    {
+
+        if (e.Key == "Enter")
+        {
+
+            SearchForMovies();
+
+        }
+
+    }
+
+
+
+
 
 #line default
 #line hidden
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IRepository repository { get; set; }
     }
 }
 #pragma warning restore 1591

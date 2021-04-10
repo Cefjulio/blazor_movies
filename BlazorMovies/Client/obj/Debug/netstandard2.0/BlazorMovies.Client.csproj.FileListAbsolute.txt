@@ -166,3 +166,5 @@ C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Client\obj\Debug\ne
 C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Client\obj\Debug\netstandard2.0\blazor\blazor.boot.json
 C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Client\obj\Debug\netstandard2.0\RazorDeclaration\Pages\Genres\GenreForm.razor.g.cs
 C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Client\obj\Debug\netstandard2.0\Razor\Pages\Genres\GenreForm.razor.g.cs
+C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Client\obj\Debug\netstandard2.0\RazorDeclaration\Pages\Movies\MovieFilter.razor.g.cs
+C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Client\obj\Debug\netstandard2.0\Razor\Pages\Movies\MovieFilter.razor.g.cs
