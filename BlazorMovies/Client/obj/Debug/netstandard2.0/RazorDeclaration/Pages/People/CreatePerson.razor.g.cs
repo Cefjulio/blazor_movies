@@ -65,6 +65,18 @@ using BlazorMovies.Shared.Entities;
         {
         }
         #pragma warning restore 1998
+#line 6 "C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Client\Pages\People\CreatePerson.razor"
+       
+
+    Person Person = new Person();
+    private void Create()
+    {
+        Console.WriteLine("Creating person...");
+    }
+
+
+#line default
+#line hidden
     }
 }
 #pragma warning restore 1591

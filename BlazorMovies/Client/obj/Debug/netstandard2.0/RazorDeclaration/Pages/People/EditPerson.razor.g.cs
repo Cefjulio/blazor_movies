@@ -57,7 +57,7 @@ using BlazorMovies.Shared.Entities;
 
 #line default
 #line hidden
-    [Microsoft.AspNetCore.Components.RouteAttribute("/person/edit/{PersonId}")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/person/edit/{PersonId:int}")]
     public partial class EditPerson : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -65,9 +65,21 @@ using BlazorMovies.Shared.Entities;
         {
         }
         #pragma warning restore 1998
-#line 5 "C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Client\Pages\People\EditPerson.razor"
+#line 12 "C:\Users\auyon.j6356\source\repos\Blazor_Movies\BlazorMovies\Client\Pages\People\EditPerson.razor"
        
     [Parameter] public int PersonId { get; set; }
+    Person Person;
+
+    protected override void OnInitialized()
+    {
+        Person = new Person() { Name = "Felipe", DateOfBirth = DateTime.Today, Biography="something"    };
+    }
+    private void Edit()
+    {
+        Console.WriteLine("editing person...");
+    }
+
+
 
 #line default
 #line hidden
